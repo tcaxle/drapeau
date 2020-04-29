@@ -9,8 +9,22 @@ An add-on for [Chezmoi](https://github.com/twpayne/chezmoi) to synchronise your 
 * Run `# chezmoi apply`
 * Edit your chezmoi config (`# chezmoi edit-config`) and change the `[data.drapeau]` colorscheme name to the same name as your desired colorscheme file (by default it will look for a colourscheme named `default.toml`)
 * Convert any files managed by chezmoi to [templates](https://github.com/twpayne/chezmoi/blob/master/docs/HOWTO.md#use-templates-to-manage-files-that-vary-from-machine-to-machine) using `# chezmoi add --template /path/to/file`
-* Replace all colours you wish to be in line with your colorscheme with tempate tags in the form `{{ .drapeau.colors.l_green }}` (or if you have used a different naming scheme for your colors, use `{{ .drapeau.colors.your_color_name_here }}`)
+* Replace all colours you wish to be in line with your colorscheme with tempate tags in the form `#{{ .drapeau.colors.l_green }}` (or if you have used a different naming scheme for your colors, use `#{{ .drapeau.colors.your_color_name_here }}`)
 * Run `# chezmoi apply` any time you make any changes to colorschemes and all of your config files will update too
 
 # Example Colorschemes
 Example colorschemes can be found in the examples folder.
+
+# Notes
+* You may have as many colors as you like with whatever names you choose as long as it is consistent in your template files
+* You may have program specific colors if you wish with the following colorscheme setup:
+```
+...
+main_color = "A787F"
+...
+[program_name]
+    specific_color = "785E66"
+    ...
+...
+```
+
