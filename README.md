@@ -19,12 +19,20 @@ Example colorschemes can be found in the examples folder.
 * You may have as many colors as you like with whatever names you choose as long as it is consistent in your template files
 * You may have program specific colors if you wish with the following colorscheme setup:
 ```
+~/.config/drapeau/scheme.toml
 ...
 main_color = "A787F"
 ...
 [program_name]
     specific_color = "785E66"
     ...
+...
+```
+
+```
+/chezmoi/repo/program_name.tmpl
+...
+specific_color_needed_here = #{{ .drapeau.colors.program_name.specific_color }}
 ...
 ```
 
