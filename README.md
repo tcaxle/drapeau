@@ -16,6 +16,8 @@ An add-on for [Chezmoi](https://github.com/twpayne/chezmoi) to synchronise your 
 Example colorschemes can be found in the examples folder.
 
 # Notes
+* This is intended for use with hex valued colors but there is no reason it would not work for other color formats
+* Hex values in colorscheme files ought to be without the preceding `#` or `\x` to allow use in different languages of config file
 * You may have as many colors as you like with whatever names you choose as long as it is consistent in your template files
 * You may have program specific colors if you wish with the following colorscheme setup:
 ```
