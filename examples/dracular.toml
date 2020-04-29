@@ -1,32 +1,32 @@
-foreground = "F8F8F2"
-background = "282A36"
+foreground = "F8F8F2" # foregrounf
+background = "282A36" # background
 
 # Black
 d_black    = "000000"
 l_black    = "4D4D4D"
 
 # Red
-d_red      = "FF5555"
+d_red      = "FF5555" # red
 l_red      = "FF6E67"
 
 # Green
-d_green    = "50FA7B"
+d_green    = "50FA7B" # green
 l_green    = "5AF78E"
 
 # Yellow
-d_yellow   = "F1FA8C"
+d_yellow   = "F1FA8C" # yellow
 l_yellow   = "F4F99D"
 
 # Blue
-d_blue     = "BD93F9"
-l_blue     = "CAA9FA"
+d_blue     = "BD93F9" # blue
+l_blue     = "CAA9FA" 
 
 # Magenta
-d_magenta  = "FF79C6"
+d_magenta  = "FF79C6" # pink
 l_magenta  = "FF92D0"
 
 # Cyan
-d_cyan     = "8BE9FD"
+d_cyan     = "8BE9FD" # cyan
 l_cyan     = "9AEDFE"
 
 # White
