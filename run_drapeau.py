@@ -14,9 +14,7 @@ def main():
     chezmoi_config_dict = toml.load(chezmoi_config_file)
 
     # Extract drapeau data
-    if "drapeau" in chezmoi_config_dict["data"]:
-        pass
-    else:
+    if "drapeau" not in chezmoi_config_dict["data"]:
         chezmoi_config_dict["data"]["drapeau"] = {}
 
     # Get colorscheme
