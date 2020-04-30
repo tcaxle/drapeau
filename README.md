@@ -13,9 +13,9 @@ An add-on for [Chezmoi](https://github.com/twpayne/chezmoi) to synchronise your 
 * Run `$ chezmoi apply` any time you make any changes to colorschemes and all of your config files will update too
 
 ## Dependencies
-* chezmoi
-* python
-* the python toml module
+* [Chezmoi](https://github.com/twpayne/chezmoi)
+* [Pyhton](https://www.python.org/)
+* [Python-Toml](https://github.com/uiri/toml)
 
 # Example Colorschemes
 Example colorschemes can be found in the examples folder.
