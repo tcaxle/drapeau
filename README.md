@@ -12,6 +12,11 @@ An add-on for [Chezmoi](https://github.com/twpayne/chezmoi) to synchronise your 
 * Replace all colours you wish to be in line with your colorscheme with tempate tags in the form `#{{ .drapeau.colors.l_green }}` (or if you have used a different naming scheme for your colors, use `#{{ .drapeau.colors.your_color_name_here }}`)
 * Run `$ chezmoi apply` any time you make any changes to colorschemes and all of your config files will update too
 
+## Dependencies
+* chezmoi
+* python
+* the python toml module
+
 # Example Colorschemes
 Example colorschemes can be found in the examples folder.
 
