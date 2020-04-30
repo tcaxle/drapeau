@@ -1,0 +1,34 @@
+foreground = "d0d0d0"
+background = "272822"
+
+# Black
+d_black    = "272822"
+l_black    = "303030"
+
+# Red
+d_red      = "bf0829"
+l_red      = "ff0090"
+
+# Green
+d_green    = "66aa11"
+l_green    = "80ff00"
+
+# Yellow
+d_yellow   = "c47f2c"
+l_yellow   = "ffba68"
+
+# Blue
+d_blue     = "30309b"
+l_blue     = "5f5fee"
+
+# Magenta
+d_magenta  = "7e40a5"
+l_magenta  = "bb88dd"
+
+# Cyan
+d_cyan     = "3579a8"
+l_cyan     = "4eb4fa"
+
+# White
+d_white    = "9999aa"
+l_white    = "d0d0d0"
